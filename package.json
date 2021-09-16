@@ -23,6 +23,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "https://color.serialif.com",
   "browserslist": {
     "production": [
       ">0.2%",
