@@ -8,7 +8,7 @@ const useFetch = (hexcode) => {
       (async () => {
         const headers = new Headers();
         headers.append("Accept", "application/json");
-        const request = new Request("/" + hexcode, {
+        const request = new Request("https://color.serialif.com/" + hexcode, {
           headers,
         });
         const response = await fetch(request);
