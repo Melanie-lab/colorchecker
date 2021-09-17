@@ -11,7 +11,6 @@ const useFetch = (hexcode) => {
         const request = new Request("/" + hexcode, {
           headers,
         });
-        console.log(hexcode);
         const response = await fetch(request);
 
         return await response.json().then((data) => {
