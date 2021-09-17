@@ -27,7 +27,7 @@ const Colorchecker = ({ label, initalColor }) => {
         {!validHexcode &&
           "Bitte überprüfen Sie den Hexcode von " +
             label +
-            "!. Der Hexcode besteht aus 6 Zeichen. Er darf nur Zahlen von 0-9 und Buchstaben von A-F enthalten."}
+            "!. Der Hexcode besteht aus 6 Zeichen ohne dem #. Er darf nur Zahlen von 0-9 und Buchstaben von A-F enthalten. "}
       </p>
     </div>
   );
